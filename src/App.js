@@ -6,6 +6,7 @@ import Select from "./component/Select/Select.component.jsx";
 import Input from "./component/Input/Input.component";
 import ButtonSearch from "./component/ButtonsSearch/ButtonSearch.component";
 import InputEmail from "./component/InputEmail/InputEmail.component";
+import MursheedApp from "./component/MursheedApp/MursheedApp.component";
 function App() {
   return (
     <div className="App">
@@ -21,6 +22,7 @@ function App() {
         </div>
         <InputEmail placeholder={"Elektron Poctunuz"} type={"email"}></InputEmail>
       </div>
+      <MursheedApp></MursheedApp>
     </div>
   );
 }
